@@ -46,7 +46,7 @@ function buildQuizMessage(quizzes) {
 async function postQuiz(webhookUrl, quizzes) {
   const embeds = buildQuizMessage(quizzes);
   await sendDiscord(webhookUrl, {
-    content: "## 📝 JLPT 단어 퀴즈",
+    content: "## 📝 오늘의 단어",
     embeds,
   });
 }
