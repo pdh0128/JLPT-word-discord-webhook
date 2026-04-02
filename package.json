@@ -1,0 +1,13 @@
+{
+  "name": "jlpt-quiz",
+  "version": "1.0.0",
+  "description": "JLPT Japanese word quiz for Discord via AWS Lambda",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -e \"const {handler}=require('./src/handler');console.log('ok')\""
+  },
+  "keywords": ["jlpt", "japanese", "quiz", "discord", "lambda"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
